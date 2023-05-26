@@ -15,7 +15,7 @@ services:
       - sb-db-net
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MY_DATABASE=mydb
+      - MYSQL_DATABASE=mydb
 networks:
   sb-db-net:
 ...
